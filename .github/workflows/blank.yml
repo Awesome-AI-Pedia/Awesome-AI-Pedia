@@ -1,38 +1,63 @@
-name: Deploy
+# 官方推荐的 VitePress 部署到 GitHub Pages workflow
+# 参考: https://vitepress.dev/guide/deploy#github-pages
+name: Deploy VitePress site to Pages
 
 on:
+  # 推送到 master 分支时触发
   push:
-    branches:
-      - master
+    branches: [master]
+
+  # 允许在 Actions 页面手动触发
+  workflow_dispatch:
+
+# GITHUB_TOKEN 的权限：读代码 + 写 Pages + OIDC
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 只允许一个并发部署，跳过排队中的运行，但不取消进行中的
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          node-version: 20.18.1
-          #   cache: npm
-      - run: node -v
-      - run: rm -rf node_modules package-lock.json pnpm-lock.yaml
-      - run: npm cache clean --force
-      - run: npm i
-      # - run: npm i --legacy-peer-deps
-      # - run: npm i pnpm -g
-      # - run: npm install -g pnpm@latest
-      # - run: pnpm i
-      # - run: pnpm add markdown-it@13.0.2
-      # - run: pnpm approve-builds
-      # - run: npm audit fix -f
+          fetch-depth: 0 # lastUpdated 需要完整历史
 
-      - name: Build
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Build with VitePress
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target_branch: gh-pages
-          build_dir: docs/.vitepress/dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN_HOME }}
+          path: docs/.vitepress/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
