@@ -49,11 +49,11 @@ export default defineConfig({
     sidebar: generateAllSidebars(projectRoot),
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/qdleader/Awesome-AI-Pedia' }
+      { icon: 'github', link: 'https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/qdleader/Awesome-AI-Pedia/edit/master/:path',
+      pattern: 'https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia/edit/master/:path',
       text: '在GitHub上编辑此页'
     },
 

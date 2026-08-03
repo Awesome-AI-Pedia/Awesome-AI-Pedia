@@ -4,7 +4,7 @@
 
 **一个全面的 AI 知识库与博客平台**
 
-[🔥 在线访问](https://qdleader.github.io/Awesome-AI-Pedia/) | [🚀 快速开始](#-快速开始) | [📚 文档](https://qdleader.github.io/Awesome-AI-Pedia/guide/)
+[🔥 在线访问](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/) | [🚀 快速开始](#-快速开始) | [📚 文档](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/)
 
 </div>
 
@@ -112,7 +112,7 @@ AI 应用开发相关问题与解决方案
 
 ```bash
 # 克隆项目
-git clone https://github.com/qdleader/Awesome-AI-Pedia.git
+git clone https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia.git
 cd Awesome-AI-Pedia
 
 # 给脚本添加执行权限（仅需执行一次）
