@@ -32,7 +32,6 @@ skills-lock.json
 *.njsproj
 *.sln
 *.sw?
-package-lock.json
 yarn.lock
 
 docs/.vitepress/.temp
