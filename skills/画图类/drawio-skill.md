@@ -1,6 +1,5 @@
 # drawio-skill — 从文本到专业图表
 
-[English README](https://github.com/Agents365-ai/drawio-skill) | [在线文档](https://agents365-ai.github.io/drawio-skill/)
 
 ## 简介
 
@@ -340,14 +339,4 @@ drawio-skill/
 └── assets/               # 示例图表
 ```
 
-## 许可证
 
-MIT
-
-## 作者
-
-**Agents365-ai**
-
-- Bilibili: https://space.bilibili.com/441831884
-- GitHub: https://github.com/Agents365-ai
-- 仓库: https://github.com/Agents365-ai/drawio-skill

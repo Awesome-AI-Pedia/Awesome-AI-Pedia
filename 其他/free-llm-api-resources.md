@@ -39,20 +39,5 @@
 
 ---
 
-## 🌟 专项资助与优惠
-
-- **开源维护者**：OpenAI, Claude, Azure 和 GitHub Copilot 均有针对开源项目的官方支持计划。
-- **初创公司**：Google Cloud AI Startup, Microsoft for Startups, AWS 等提供上万美元的抵扣金。
-- **教育优惠**：阿里云（云工开物）等平台为在校师生提供长期免费额度。
-
----
-
-## 📖 参考资源
-
-在本指南的编写过程中，参考了以下优质资源：
-
-- **GitHub 热门项目**：[cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) (目前最完整的免费 API 导航列表)
 
 
----
-> 💡 **提示**：免费 API 额度及政策具有时效性，建议在使用前查看各平台的最新官方公告。

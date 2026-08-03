@@ -2,10 +2,7 @@
 
 > The Anti-Slop Frontend Framework for AI Agents
 
-- **GitHub**：[Leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill)（掘金作者标注 51.8K ⭐）
-- **官网**：[tasteskill.dev](https://tasteskill.dev)
-- **License**：MIT
-- **参考文章**：[我筛了 1400 个 Claude Code Skills，留下 5 个天天在用的](https://juejin.cn/post/7657936630132883492#heading-3) — kyriewen，2026-07-04
+
 
 ---
 
@@ -136,7 +133,6 @@ SKILL.md 顶部的三个数字是 **1–10 档位**：
 
 ## 七、为什么它比"换一段 Prompt"值得装
 
-掘金作者提出的核心判断标准：
 
 > 打开它的 `SKILL.md`，如果核心内容你可以用一句话对 AI 说出来——那就不需要这个 Skill。
 >
@@ -163,4 +159,3 @@ Taste Skill 的价值正在于此：它让 AI 在生成**每一个 UI 元素**�
 
 ---
 
-**反馈渠道**：GitHub Issue / PR、X [@lexnlin](https://x.com/lexnlin) 与 [@blueemi99](https://x.com/blueemi99)、Email `hello@tasteskill.dev`

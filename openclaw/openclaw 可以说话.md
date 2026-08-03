@@ -49,6 +49,3 @@ npx skills add NoizAI/skills --full-depth --skill tts -y
 
 - **Noiz 官网**: [noiz.ai](https://noiz.ai)
 - **GitHub 技能库**: [NoizAI/skills](https://github.com/NoizAI/skills)
-- **参考资料**:
-  - [AI 星踪岛 - Noiz 详细介绍与评价](https://aixzd.com/noiz)
-  - [CSDN - Noiz AI TTS 和视频配音神器](https://blog.csdn.net/Vincentqqqqqqq/article/details/144961316)

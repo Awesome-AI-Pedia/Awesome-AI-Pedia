@@ -2,10 +2,6 @@
 
 > 首个开源的 Agentic 视频生产系统 —— 把你的 AI 编程助手（Claude Code / Cursor / Copilot / Windsurf / Codex）变成一个完整的视频制作工作室。
 
-- 项目地址：https://github.com/calesthio/OpenMontage
-- 官网：https://openmontage.video
-- 许可证：AGPLv3
-
 ## 是什么
 
 OpenMontage 不是"一个 prompt 出一段片子"的 AI 视频工具，而是一整套端到端的视频生产流水线，由 AI Agent 驱动：从选题研究、脚本撰写、分镜规划、素材生成/检索，到剪辑、合成、字幕、渲染，全部自动化。
