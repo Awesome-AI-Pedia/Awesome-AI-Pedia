@@ -4,29 +4,11 @@
 
 **一个全面的 AI 知识库与博客平台**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![VitePress](https://img.shields.io/badge/VitePress-1.x-brightgreen)](https://vitepress.dev/)
-[![Node](https://img.shields.io/badge/Node-%3E%3D18-blue)](https://nodejs.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/Awesome-AI-Pedia/Awesome-AI-Pedia?style=social)](https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia)
 
-[🔥 在线访问](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/) · [🚀 快速开始](#-快速开始) · [📚 内容目录](#-知识库分类) · [🤝 贡献](#-贡献)
+[🔥 在线访问](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/) · [🚀 快速开始](#-快速开始) · [📚 内容目录](#-知识库分类) · [🤝 联系方式](#-联系方式)
 
 </div>
-
----
-
-## 📖 目录
-
-- [项目简介](#-项目简介)
-- [知识库分类](#-知识库分类)
-- [快速开始](#-快速开始)
-- [常用命令](#-常用命令)
-- [项目结构](#-项目结构)
-- [贡献](#-贡献)
-- [联系方式](#-联系方式)
-- [License](#-license)
-
----
 
 ## ✨ 项目简介
 
@@ -99,10 +81,6 @@
 
 ## 🚀 快速开始
 
-### 环境要求
-
-- **Node.js** `>= 18`（推荐 20 / 22）
-- **npm** 或 **pnpm** / **yarn**
 
 ### 方法一：使用启动脚本（推荐）
 
@@ -117,29 +95,6 @@ chmod +x start.sh
 ./start.sh
 ```
 
-启动后访问：<http://localhost:5173>
-
-### 方法二：手动运行
-
-```bash
-git clone https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia.git
-cd Awesome-AI-Pedia
-npm install
-npm run dev
-```
-
----
-
-## 📋 常用命令
-
-| 命令 | 说明 |
-| --- | --- |
-| `npm run dev` | 启动本地开发服务器（默认 `5173`） |
-| `npm run build` | 构建生产版本到 `docs/.vitepress/dist` |
-| `npm run preview` | 预览已构建的生产版本 |
-| `./start.sh` | 一键脚本：环境检查 + 依赖安装 + 启动 dev |
-
----
 
 ## 🗂️ 项目结构
 
@@ -165,19 +120,6 @@ VitePress 通过 `srcDir: '../'` 将整个仓库根目录作为文档源，
 
 ---
 
-## 🤝 贡献
-
-欢迎任何形式的贡献！请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解详情。
-
-简要流程：
-
-1. Fork 本仓库
-2. 新建分支：`git checkout -b feat/your-topic`
-3. 在对应分类目录下新增或修改 Markdown 文档
-4. 本地 `npm run dev` 预览确认无误
-5. 提交并发起 Pull Request
-
----
 
 ## 📞 联系方式
 
@@ -188,11 +130,6 @@ VitePress 通过 `srcDir: '../'` 将整个仓库根目录作为文档源，
 
 ---
 
-## 📄 License
-
-本项目基于 [MIT License](./LICENSE) 开源。
-
----
 
 <div align="center">
 
