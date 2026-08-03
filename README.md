@@ -30,7 +30,7 @@
 
 ## ✨ 项目简介
 
-**Awesome AI Pedia** 是一个基于 [VitePress](https://vitepress.dev/) 构建的现代化 AI 知识库，
+**Awesome AI Pedia** 是一个现代化 AI 知识库，
 旨在为开发者提供全面的 AI 工具使用指南、最佳实践和实战经验分享。
 
 ### 🎯 核心特性
