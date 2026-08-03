@@ -81,7 +81,7 @@ title: ${displayName}
 `;
 
       files.forEach(file => {
-        const title = file.replace('.md', '');
+        const title = file.replace(/\.md$/, '');
         // 使用绝对路径，确保链接正确
         content += `
   <div class="article-item">

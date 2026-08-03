@@ -6,6 +6,10 @@ import { dirname } from 'path'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
+function stripMarkdownExtension(fileName: string): string {
+  return fileName.replace(/\.md$/, '')
+}
+
 // 获取目录下的所有markdown文件
 export function getMarkdownFiles(dirPath: string): string[] {
   const files: string[] = []
@@ -88,7 +92,7 @@ function getFirstArticleLink(dirPath: string, urlBasePath: string): string | nul
 
   if (!firstArticle) return null
 
-  const fileName = firstArticle.replace('.md', '')
+  const fileName = stripMarkdownExtension(firstArticle)
   return `${urlBasePath}/${fileName}`
 }
 
@@ -108,7 +112,7 @@ function generateSidebarItems(dirPath: string, urlBasePath: string): Array<any> 
     .sort()
   
   mdFiles.forEach((file: string) => {
-    const fileName = file.replace('.md', '')
+    const fileName = stripMarkdownExtension(file)
     items.push({
       text: fileName,
       link: `${urlBasePath}/${fileName}`
@@ -187,7 +191,7 @@ function generateDynamicSidebarItems(dirPath: string, urlBasePath: string): Arra
     .sort()
   
   mdFiles.forEach((file: string) => {
-    const fileName = file.replace('.md', '')
+    const fileName = stripMarkdownExtension(file)
     items.push({
       text: fileName,
       link: `${urlBasePath}/${fileName}`

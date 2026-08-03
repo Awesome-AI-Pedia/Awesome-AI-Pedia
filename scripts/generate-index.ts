@@ -47,7 +47,7 @@ function generateIndexContent(dirPath: string): string {
   
   // 生成文章列表
   const articleItems = files.map(file => {
-    const fileName = file.replace('.md', '')
+    const fileName = file.replace(/\.md$/, '')
     return `  <div class="article-item">
     <div class="article-item-title">
       <a href="/Awesome-AI-Pedia/${relativePath}/${fileName}">${fileName}</a>
