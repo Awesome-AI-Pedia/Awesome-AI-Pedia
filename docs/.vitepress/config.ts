@@ -1,8 +1,32 @@
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
+import fs from 'node:fs'
+import path from 'node:path'
 import { getProjectRoot, generateNav, generateAllSidebars } from './utils/sidebar'
 
 const projectRoot = getProjectRoot()
+
+function writeRedirect(outDir: string, fromPath: string, toPath: string) {
+  const targetPath = path.join(outDir, fromPath)
+  const relativeTarget = path.posix.relative(path.posix.dirname(fromPath), toPath)
+  const href = relativeTarget || path.posix.basename(toPath)
+
+  fs.mkdirSync(path.dirname(targetPath), { recursive: true })
+  fs.writeFileSync(targetPath, `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=${href}">
+  <link rel="canonical" href="${href}">
+  <script>location.replace(${JSON.stringify(href)});</script>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <a href="${href}">Redirecting...</a>
+</body>
+</html>
+`)
+}
 
 export default defineConfig({
   title: 'Awesome AI Pedia',
@@ -97,8 +121,12 @@ export default defineConfig({
     toc: { level: [1, 2, 3, 4] }
   },
 
-  // 🔧 添加构建钩子，确保所有目录都有 index.html
+  // 🔧 添加构建钩子，确保历史错误链接可跳转到正确页面
   buildEnd: async (siteConfig) => {
-    // VitePress 会自动处理，这里只是确保配置正确
+    writeRedirect(
+      siteConfig.outDir,
+      'Ai面试类/CLAUDE如何维护.html',
+      'Ai面试类/CLAUDE.md如何维护.html'
+    )
   }
 })
