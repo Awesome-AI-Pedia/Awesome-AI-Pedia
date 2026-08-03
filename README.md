@@ -4,133 +4,193 @@
 
 **一个全面的 AI 知识库与博客平台**
 
-[🔥 在线访问](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/) | [🚀 快速开始](#-快速开始) | [📚 文档](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![VitePress](https://img.shields.io/badge/VitePress-1.x-brightgreen)](https://vitepress.dev/)
+[![Node](https://img.shields.io/badge/Node-%3E%3D18-blue)](https://nodejs.org/)
+[![GitHub Stars](https://img.shields.io/github/stars/Awesome-AI-Pedia/Awesome-AI-Pedia?style=social)](https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia)
+
+[🔥 在线访问](https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/) · [🚀 快速开始](#-快速开始) · [📚 内容目录](#-知识库分类) · [🤝 贡献](#-贡献)
 
 </div>
 
 ---
 
+## 📖 目录
+
+- [项目简介](#-项目简介)
+- [知识库分类](#-知识库分类)
+- [快速开始](#-快速开始)
+- [常用命令](#-常用命令)
+- [项目结构](#-项目结构)
+- [贡献](#-贡献)
+- [联系方式](#-联系方式)
+- [License](#-license)
+
+---
+
 ## ✨ 项目简介
 
-**Awesome AI Pedia** 是一个现代化 AI 知识库，旨在为开发者提供全面的 AI 工具使用指南、最佳实践和实战经验分享。
+**Awesome AI Pedia** 是一个基于 [VitePress](https://vitepress.dev/) 构建的现代化 AI 知识库，
+旨在为开发者提供全面的 AI 工具使用指南、最佳实践和实战经验分享。
 
 ### 🎯 核心特性
 
-- **📚 11个AI分类** - 涵盖 Claude Code、Cursor、MCP、Prompt、Rules、Skills 等全方位 AI 知识
-- **💡 实战导向** - 从实际项目出发，提供可落地的解决方案
-- **🔍 智能搜索** - 内置全文搜索，快速定位所需内容
+- **📚 全方位覆盖** — 从 Claude Code、Cursor、MCP，到 Agent、Skills、Prompt 工程等主流 AI 方向
+- **💡 实战导向** — 从真实项目出发，提供可落地的解决方案
+- **🔍 本地搜索** — 内置全文搜索，快速定位所需内容
+- **🌙 暗黑主题** — 默认暗色界面，长时间阅读不刺眼
+- **🚀 自动部署** — 推送到 `master` 自动构建并发布到 GitHub Pages
+
 ---
 
 ## 📂 知识库分类
 
-### 🤖 Claude Code
-Claude AI 编码助手的完整使用指南
-- 安装与配置
-- 常用命令速查
-- Browser 工具使用
-- 自动提醒配置
-- Settings.json 配置详解
+> 以下分类均对应仓库根目录的实际目录，可直接进入查看原始 Markdown。
 
-### 🎯 Cursor
-Cursor AI 编辑器的使用方法和最佳实践
-- 常用功能详解
-- 中文对话设置
-- 区域限制解决方案
-- 菜单栏自定义
-- 版本管理
+### 🤖 AI 编码助手
 
-### 🔌 MCP (Model Context Protocol)
-模型上下文协议相关资源与实践
-- Figma MCP 集成
-- 蓝湖 MCP 使用
-- 飞书 MCP 配置
-- Playwright MCP 自动化
-- Context7 MCP
-- Chrome DevTools MCP
-- 天气预报 MCP 实战
-- 网页发布 MCP
+| 目录 | 说明 |
+| --- | --- |
+| [`claudeCode/`](./claudeCode) | Claude Code 完整使用指南：安装配置、常用命令、Browser 工具、Settings.json 详解 |
+| [`cursor/`](./cursor) | Cursor 编辑器：功能详解、中文对话、区域限制、菜单栏自定义、版本管理 |
+| [`codex/`](./codex) | OpenAI Codex 相关实践 |
+| [`antigravity/`](./antigravity) | Antigravity 相关笔记 |
+| [`openclaw/`](./openclaw) | Openclaw 相关内容 |
 
-### 💬 Prompt
-提示词工程和优化技巧
-- React + UI 设计师 Prompt
-- SVG 海报设计专家 Prompt
-- 提示词优化网站推荐
-- 提示词最佳实践
+### 🔌 生态与协议
 
-### 📋 Rules
-各种 AI 编码规则和最佳实践
-- Next.js + React + TypeScript Rules
-- Vue.js + TypeScript Rules
-- NuxtJS Rules
-- Flutter Rules
-- Expo React Native Rules
-- Spring Boot Rules
-- HTML & CSS Best Practices
-- Claude + Cursor 高级提示词
+| 目录 | 说明 |
+| --- | --- |
+| [`mcp/`](./mcp) | Model Context Protocol：Figma / 蓝湖 / 飞书 / Playwright / Context7 / Chrome DevTools 等 MCP 实战 |
+| [`Agent/`](./Agent) | AI Agent 相关内容 |
+| [`Harness Engineering/`](./Harness%20Engineering) | 提示词/Agent 编排工程 |
 
-### 🛠️ Skills
-AI 技能集合和实用工具
-- Skills 概念与使用
-- MCP 与 Skills 的区别
-- Skills 安装指南
-- 自定义 Skills 开发
+### 💬 提示词与规则
 
-### 🚀 部署 AI
-AI 应用部署相关知识
-- 部署策略
-- 环境配置
-- 性能优化
-- 监控与维护
+| 目录 | 说明 |
+| --- | --- |
+| [`prompt/`](./prompt) | Prompt 工程：React + UI 设计师、SVG 海报设计、提示词最佳实践 |
+| [`rules/`](./rules) | Next.js / Vue / NuxtJS / Flutter / Expo / Spring Boot / HTML & CSS 等 AI 编码规则 |
+| [`好的rules/`](./好的rules) | 精选优质 Rules 集合 |
 
-### 💡 使用 AI 技巧
-AI 工具使用技巧与经验分享
-- 高效使用方法
-- 常见问题解决
-- 最佳实践总结
+### 🛠️ 技能与工具
 
-### 🔧 开发 AI 应用
-AI 应用开发相关问题与解决方案
-- 开发环境搭建
-- 常见问题排查
-- 性能优化建议
+| 目录 | 说明 |
+| --- | --- |
+| [`skills/`](./skills) | Skills 概念、与 MCP 的区别、安装、自定义开发 |
+| [`常用skills/`](./常用skills) | 高频使用的 Skills 工具集 |
+| [`工具/`](./工具) | 常用辅助工具集合 |
 
-### ⭐ 好的 Rules
-精选优质 Rules 集合
-- 社区推荐 Rules
-- 实战验证的最佳配置
+### 📚 学习与实战
 
-### 💼 常用 Skills
-常用 Skills 工具集
-- 高频使用的 Skills
-- 实用工具推荐
+| 目录 | 说明 |
+| --- | --- |
+| [`不可不知的Ai知识/`](./不可不知的Ai知识) | AI 入门必备知识 |
+| [`使用ai技巧/`](./使用ai技巧) | AI 工具高效使用技巧 |
+| [`开发ai应用相关问题/`](./开发ai应用相关问题) | AI 应用开发常见问题排查 |
+| [`部署ai/`](./部署ai) | AI 应用部署策略与实践 |
+| [`vibe coding/`](./vibe%20coding) | Vibe Coding 实践 |
+| [`vibe design/`](./vibe%20design) | Vibe Design 实践 |
+| [`全栈/`](./全栈) | 全栈开发相关 |
+| [`Ai面试类/`](./Ai面试类) | AI 相关面试题与经验 |
+| [`其他/`](./其他) | 其他未分类内容 |
 
 ---
 
 ## 🚀 快速开始
 
+### 环境要求
+
+- **Node.js** `>= 18`（推荐 20 / 22）
+- **npm** 或 **pnpm** / **yarn**
+
 ### 方法一：使用启动脚本（推荐）
 
 ```bash
-# 克隆项目
 git clone https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia.git
 cd Awesome-AI-Pedia
 
-# 给脚本添加执行权限（仅需执行一次）
+# 首次运行需要授予执行权限
 chmod +x start.sh
 
-# 运行启动脚本
+# 一键启动：自动检查 Node 版本、安装依赖、启动 dev server
 ./start.sh
 ```
 
-脚本会自动：
-- ✅ 检查 Node.js 环境
-- ✅ 安装项目依赖
-- ✅ 启动开发服务器
+启动后访问：<http://localhost:5173>
 
+### 方法二：手动运行
+
+```bash
+git clone https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia.git
+cd Awesome-AI-Pedia
+npm install
+npm run dev
+```
+
+---
+
+## 📋 常用命令
+
+| 命令 | 说明 |
+| --- | --- |
+| `npm run dev` | 启动本地开发服务器（默认 `5173`） |
+| `npm run build` | 构建生产版本到 `docs/.vitepress/dist` |
+| `npm run preview` | 预览已构建的生产版本 |
+| `./start.sh` | 一键脚本：环境检查 + 依赖安装 + 启动 dev |
+
+---
+
+## 🗂️ 项目结构
+
+```
+Awesome-AI-Pedia/
+├── docs/                    # VitePress 站点入口
+│   ├── .vitepress/          # 配置、主题、侧边栏生成器
+│   ├── blog/                # 博客文章
+│   └── index.md             # 首页
+├── claudeCode/              # 各知识分类目录（会被 VitePress 收录）
+├── cursor/
+├── mcp/
+├── skills/
+├── ...                      # 其他分类目录
+├── scripts/                 # 构建辅助脚本
+├── .github/workflows/       # GitHub Actions 自动部署
+├── start.sh                 # 一键启动脚本
+└── package.json
+```
+
+VitePress 通过 `srcDir: '../'` 将整个仓库根目录作为文档源，
+侧边栏由 `docs/.vitepress/utils/sidebar.ts` 自动扫描生成。
+
+---
+
+## 🤝 贡献
+
+欢迎任何形式的贡献！请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解详情。
+
+简要流程：
+
+1. Fork 本仓库
+2. 新建分支：`git checkout -b feat/your-topic`
+3. 在对应分类目录下新增或修改 Markdown 文档
+4. 本地 `npm run dev` 预览确认无误
+5. 提交并发起 Pull Request
+
+---
 
 ## 📞 联系方式
 
-微信搜索 硬核Ai社 回复加群，加入AI交流群，一起学习AI
+微信搜索 **硬核 AI 社** 回复「加群」，加入 AI 交流群，一起学习 AI。
+
+- GitHub Issues：[提交问题或建议](https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia/issues)
+- 项目主页：<https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/>
+
+---
+
+## 📄 License
+
+本项目基于 [MIT License](./LICENSE) 开源。
 
 ---
 
@@ -140,12 +200,7 @@ chmod +x start.sh
 
 Made with ❤️ by [qdleader](https://github.com/qdleader)
 
-</div>
+<br>
+<b>愿 AI 早点成为你最好的工作伙伴！</b>
 
-<div align="center">
-<br>
-<b>
-愿AI早点成为你的最好的工作伙伴！
-</b>
-<br>
 </div>

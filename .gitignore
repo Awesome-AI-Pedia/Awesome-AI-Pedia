@@ -7,25 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-
+# Dependencies & build output
 node_modules/
-# server/
 dist/
-dist-ssr
+dist-ssr/
 *.local
 stats.html
 
-
-# Editor directories and files
+# Editor & OS
 .vscode/*
-.baoyu-skills/*
-.baoyu-skills/*/*
-.baoyu-skills/*/*/*
-.baoyu-skills/*/*/*/*
 !.vscode/extensions.json
 !.vscode/settings.json
-skills-lock.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
@@ -34,10 +27,12 @@ skills-lock.json
 *.sw?
 yarn.lock
 
-docs/.vitepress/.temp
+# Project-specific
+.baoyu-skills/
+skills-lock.json
+
+# VitePress
+docs/.vitepress/.temp/
 docs/.vitepress/.cache/
-docs/.vitepress/.cache
-docs/.vitepress/.cache/*
-docs/.vitepress/cache/*
 docs/.vitepress/cache/
-docs/.vitepress/cache
+docs/.vitepress/dist/

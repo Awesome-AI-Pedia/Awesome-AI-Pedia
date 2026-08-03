@@ -1,11 +1,32 @@
 {
   "name": "awesome-ai-pedia",
   "version": "1.0.0",
-  "description": "基于VitePress的AI知识库博客",
+  "description": "基于 VitePress 的 AI 知识库与博客平台，涵盖 Claude Code、Cursor、MCP、Prompt、Rules、Skills 等 AI 工具的实战经验与最佳实践。",
   "type": "module",
+  "keywords": [
+    "ai",
+    "vitepress",
+    "knowledge-base",
+    "claude-code",
+    "cursor",
+    "mcp",
+    "prompt-engineering",
+    "blog"
+  ],
+  "author": "qdleader",
+  "license": "MIT",
+  "homepage": "https://awesome-ai-pedia.github.io/Awesome-AI-Pedia/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia/issues"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
     "serve": "vitepress preview docs"
   },
   "dependencies": {
@@ -16,6 +37,9 @@
   "devDependencies": {
     "gray-matter": "^4.0.3",
     "glob": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "volta": {
     "node": "22.22.0"
