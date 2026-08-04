@@ -135,7 +135,7 @@ VitePress 通过 `srcDir: '../'` 将整个仓库根目录作为文档源，
 
 **如果这个项目对你有帮助，请给一个 ⭐ Star！**
 
-Made with ❤️ by [qdleader](https://github.com/qdleader)
+Made with ❤️ by [AI-leader](https://github.com/Awesome-AI-Pedia/)
 
 <br>
 <b>愿 AI 早点成为你最好的工作伙伴！</b>
