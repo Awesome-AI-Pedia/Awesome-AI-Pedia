@@ -141,3 +141,21 @@ Made with ❤️ by [AI-leader](https://github.com/Awesome-AI-Pedia/)
 <b>愿 AI 早点成为你最好的工作伙伴！</b>
 
 </div>
+
+
+
+<div align="center">
+
+<a href="https://star-history.com/#Awesome-AI-Pedia/Awesome-AI-Pedia&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date&theme=dark" width="720" />
+  </picture>
+</a>
+
+<br />
+<sub>⭐ 感谢每一位 Star 的支持 </sub>
+
+</div>
+
