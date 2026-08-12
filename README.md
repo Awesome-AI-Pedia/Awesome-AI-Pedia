@@ -146,7 +146,7 @@ Made with ❤️ by [AI-leader](https://github.com/Awesome-AI-Pedia/)
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/chart?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=date&legend=top-left&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w)](https://www.star-history.com/?repos=Awesome-AI-Pedia%2FAwesome-AI-Pedia)
+![](https://api.star-history.com/chart?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=date&legend=top-left&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w)
 
 </div>
 
