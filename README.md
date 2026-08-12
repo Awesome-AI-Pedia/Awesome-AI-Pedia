@@ -146,7 +146,24 @@ Made with ❤️ by [AI-leader](https://github.com/Awesome-AI-Pedia/)
 
 <div align="center">
 
-![](https://api.star-history.com/chart?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=date&legend=top-left&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w)
+
+<a href="">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date&theme=dark&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w"
+    />
+    <img
+      alt="Star History Chart"
+      src="https://api.star-history.com/svg?repos=Awesome-AI-Pedia/Awesome-AI-Pedia&type=Date&sealed_token=1gibffw3ntz8oBm4RSwf9rZxw6JqYs3bqUUY8fJhCnezWe6PXZ1RQM6spAw-ZTmAv8-nDGRq99kPO5hkveWE2dXFT1ZSDfj5FIQS7qARG1sA6u5ZwflT_w"
+      width="720"
+    />
+  </picture>
+</a>
 
 </div>
 
