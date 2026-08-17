@@ -1,6 +1,7 @@
-# DSH（DeepSeek Harness）插件推荐
 
-> 来源：[腾讯新闻 2026-08-14](https://news.qq.com/rain/a/20260814A0BQ9N00)
+
+# DSH 插件推荐清单：DeepSeek Harness 必装的 14 个插件
+
 
 ## 一、DSH 是什么
 
