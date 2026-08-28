@@ -3,9 +3,6 @@
 > 一款为「你和 AI Agent 并行工作」而生的浏览器 —— 你用你的标签页，Agent 在独立 Space 里干活，互不打扰。
 
 - 项目地址：https://github.com/citrolabs/ego-lite
-- 官网/文档：https://lite.ego.app/document/
-- 许可证：MIT（浏览器本体免费下载）
-- 平台：macOS（Windows / Linux 在 roadmap）
 
 ## 是什么
 
