@@ -4,7 +4,7 @@
 
 ## 定位
 
-开源 FDE Harness 约束层（MIT）：给 DSH Agent 加一道提交时审计闸门。Agent 每次改动 git diff 都过 24 条规则审计，密钥泄漏、越界改文件、注入攻击、权限红线违规当场拦截，并支持快照回滚。面向 DSH 的深度集成形态：9 款 `cordis-plugin-sofagent-*` 插件挂载进运行时 + MCP server（80 个工具）。
+开源 FDE Harness 约束层（MIT）：给 DSH Agent 加一道提交时审计闸门。Agent 每次改动 git diff 都过 24 条规则审计，密钥泄漏、越界改文件、注入攻击、权限红线违规当场拦截，并支持快照回滚。面向 DSH 的深度集成形态：一族 `cordis-plugin-sofagent-*` 插件挂载进运行时 + MCP server（完整工具面）。
 
 ## 核心功能
 
@@ -17,7 +17,7 @@
 ## DSH 集成方式
 
 - 9 款 Cordis 插件（`cordis-plugin-sofagent-*`）挂载进 DeepSeek Harness 运行时
-- MCP server 暴露 80 个工具（`SOFAGENT_MCP_ROLES` 可按角色收窄）
+- MCP server 暴露完整工具面（`SOFAGENT_MCP_ROLES` 可按角色收窄）
 - 审计兜底平台无关：不走插件接入的 Agent 也可用 git hook 通道，每次 commit 必审
 
 ## 技术栈
