@@ -16,7 +16,7 @@
 
 ## DSH 集成方式
 
-- 9 款 Cordis 插件（`cordis-plugin-sofagent-*`）挂载进 DeepSeek Harness 运行时
+- Cordis 插件家族（`cordis-plugin-sofagent-*`）挂载进 DeepSeek Harness 运行时
 - MCP server 暴露完整工具面（`SOFAGENT_MCP_ROLES` 可按角色收窄）
 - 审计兜底平台无关：不走插件接入的 Agent 也可用 git hook 通道，每次 commit 必审
 
