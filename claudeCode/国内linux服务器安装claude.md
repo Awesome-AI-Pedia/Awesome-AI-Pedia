@@ -20,6 +20,27 @@ node -v
 npm -v
 ```
 
+
+或者国内服务器 手动安装node
+
+```js
+uname -m   # 确认架构：x86_64 或 aarch64
+
+# x86_64 服务器（以 v24.10.0 为例，实际请去 https://npmmirror.com/mirrors/node/ 确认最新版本号）
+cd /usr/local
+sudo wget https://npmmirror.com/mirrors/node/v24.10.0/node-v24.10.0-linux-x64.tar.xz
+sudo tar -xf node-v24.10.0-linux-x64.tar.xz
+sudo mv node-v24.10.0-linux-x64 node
+
+# 配置环境变量
+echo 'export PATH=/usr/local/node/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
+node -v
+npm -v
+```
+
+
 最后安装 Claude Code（无 sudo）
 ```js
 
