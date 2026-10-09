@@ -1,3 +1,5 @@
+# Claude code 地区不支持
+
 在您的主文件夹中打开您的.claude.json；
 将以下行添加到 json 中并保存；
 ```js
